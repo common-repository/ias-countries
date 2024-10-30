@@ -1,0 +1,360 @@
+# Copyright (C) 2014 ias Countries
+# This file is distributed under the same license as the ias Countries package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ias Countries 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ias-countries\n"
+"POT-Creation-Date: 2014-07-18 11:59:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ias-countries.php:1105
+msgid "Imported file is empty or its content is not of supported format."
+msgstr ""
+
+#: ias-countries.php:1151
+msgid "You have no permission to edit this page."
+msgstr ""
+
+#: ias-countries.php:1191
+msgid "Translate"
+msgstr ""
+
+#: ias-countries.php:1192
+msgid "Customize"
+msgstr ""
+
+#: ias-countries.php:1193
+msgid "Selections"
+msgstr ""
+
+#: ias-countries.php:1194
+msgid "Export"
+msgstr ""
+
+#: ias-countries.php:1195 ias-countries.php:1515
+msgid "Settings"
+msgstr ""
+
+#: ias-countries.php:1196
+msgid "Manual"
+msgstr ""
+
+#: ias-countries.php:1210
+msgid "Translate countries"
+msgstr ""
+
+#: ias-countries.php:1240 ias-countries.php:1328
+msgid "ISO"
+msgstr ""
+
+#: ias-countries.php:1241 ias-countries.php:1329
+msgid "Country"
+msgstr ""
+
+#: ias-countries.php:1242
+msgid "Translation"
+msgstr ""
+
+#: ias-countries.php:1259
+msgid "Save Translation"
+msgstr ""
+
+#: ias-countries.php:1294
+msgid "Customize built-in translation"
+msgstr ""
+
+#: ias-countries.php:1330
+msgid "Customization"
+msgstr ""
+
+#: ias-countries.php:1349
+msgid "Update Translation"
+msgstr ""
+
+#: ias-countries.php:1404
+msgid "Selection #"
+msgstr ""
+
+#: ias-countries.php:1428
+msgid "Save Selection"
+msgstr ""
+
+#: ias-countries.php:1437
+msgid "Select entire list of countries"
+msgstr ""
+
+#: ias-countries.php:1439
+msgid "All"
+msgstr ""
+
+#: ias-countries.php:1440
+msgid "None"
+msgstr ""
+
+#: ias-countries.php:1446
+msgid "Select countries on this page only"
+msgstr ""
+
+#: ias-countries.php:1449
+msgid "All on page"
+msgstr ""
+
+#: ias-countries.php:1450
+msgid "None on page"
+msgstr ""
+
+#: ias-countries.php:1477
+msgid "Export country lists"
+msgstr ""
+
+#: ias-countries.php:1478
+msgid "Export country lists from available translations."
+msgstr ""
+
+#: ias-countries.php:1486
+msgid "Export Translation"
+msgstr ""
+
+#: ias-countries.php:1524
+msgid "Countries: default language"
+msgstr ""
+
+#: ias-countries.php:1528
+msgid "Default language for country list is selected from built-in translations only. It is also used as fallback in case of missing translation for a country name."
+msgstr ""
+
+#: ias-countries.php:1533
+msgid "Languages: default language"
+msgstr ""
+
+#: ias-countries.php:1537
+msgid "Select language in which language names to be listed. If nothing selected, language is listed according to its name in the corresponding language."
+msgstr ""
+
+#: ias-countries.php:1543
+msgid "Save Settings"
+msgstr ""
+
+#: ias-countries.php:1578
+msgid "The documentation files are missing! Try %1$sdownloading%2$s and %3$sre-installing%2$s this plugin."
+msgstr ""
+
+#: ias-countries.php:1592
+msgid "If you found this plugin useful, consider to support it."
+msgstr ""
+
+#: ias-countries.php:1606
+msgid "Send your translations or correction notes."
+msgstr ""
+
+#: ias-countries.php:1611
+msgid "Your name"
+msgstr ""
+
+#: ias-countries.php:1615
+msgid "Your email"
+msgstr ""
+
+#: ias-countries.php:1619
+msgid "Message"
+msgstr ""
+
+#: ias-countries.php:1622
+msgid "Write in following languages"
+msgstr ""
+
+#: ias-countries.php:1623
+msgid "English"
+msgstr ""
+
+#: ias-countries.php:1624
+msgid "German"
+msgstr ""
+
+#: ias-countries.php:1625
+msgid "French"
+msgstr ""
+
+#: ias-countries.php:1626
+msgid "Spanish"
+msgstr ""
+
+#: ias-countries.php:1627
+msgid "Italian"
+msgstr ""
+
+#: ias-countries.php:1628
+msgid "Russian"
+msgstr ""
+
+#: ias-countries.php:1632
+msgid "Attachment"
+msgstr ""
+
+#: ias-countries.php:1634
+msgid "Only one file accepted. Multiple files to be sent as a zipped archive."
+msgstr ""
+
+#: ias-countries.php:1639
+msgid "Send"
+msgstr ""
+
+#: ias-countries.php:1683
+msgid "Import translation"
+msgstr ""
+
+#: ias-countries.php:1684
+msgid "Import customization"
+msgstr ""
+
+#: ias-countries.php:1693
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#: ias-countries.php:1698
+msgid "Choose a (.xml, .csv, .txt) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ias-countries.php:1700
+msgid "See manual for supported formats."
+msgstr ""
+
+#: ias-countries.php:1705
+msgid "Only terms distinct from the built-in translation will be imported."
+msgstr ""
+
+#: ias-countries.php:1714
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: ias-countries.php:1714
+msgid "Maximum size: %s"
+msgstr ""
+
+#: ias-countries.php:1718
+msgid "Upload file and import"
+msgstr ""
+
+#: ias-countries.php:1754
+msgid "Remove translation"
+msgstr ""
+
+#: ias-countries.php:1755
+msgid "This will remove translation into selected language from the database."
+msgstr ""
+
+#: ias-countries.php:1755
+msgid "Remove translation on this page."
+msgstr ""
+
+#: ias-countries.php:1756
+msgid "Remove translation for entire list of countries."
+msgstr ""
+
+#: ias-countries.php:1760
+msgid "Remove customization"
+msgstr ""
+
+#: ias-countries.php:1761
+msgid "This will remove your customization and restore translation into selected language to the built-in state."
+msgstr ""
+
+#: ias-countries.php:1762
+msgid "Remove customization on this page."
+msgstr ""
+
+#: ias-countries.php:1763
+msgid "Remove customization for entire list of countries."
+msgstr ""
+
+#: ias-countries.php:1765
+msgid "Remove on page"
+msgstr ""
+
+#: ias-countries.php:1766
+msgid "Remove All"
+msgstr ""
+
+#: ias-countries.php:1906 ias-countries.php:1938
+msgid "Go"
+msgstr ""
+
+#: ias-countries.php:1967
+msgid "Select Language"
+msgstr ""
+
+#: ias-countries.php:2007
+msgid "Countries"
+msgstr ""
+
+#: ias-countries.php:2011
+msgid "Go to the first page"
+msgstr ""
+
+#: ias-countries.php:2013
+msgid "Go to the previous page"
+msgstr ""
+
+#: ias-countries.php:2017
+msgid "Current page"
+msgstr ""
+
+#: ias-countries.php:2021
+msgid "Go to the next page"
+msgstr ""
+
+#: ias-countries.php:2023
+msgid "Go to the last page"
+msgstr ""
+
+#: ias-countries.php:2074
+msgid "Process completed successfully!"
+msgstr ""
+
+#: ias-countries.php:2251
+msgid "Please select language and repeat."
+msgstr ""
+
+#: ias-countries.php:2258
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: ias-countries.php:2262
+msgid "File upload failed."
+msgstr ""
+
+#: ias-countries.php:2471
+msgid "Feedback not sent."
+msgstr ""
+
+#: ias-countries.php:2484
+msgid "Required fields are not complete."
+msgstr ""
+
+#: ias-countries.php:2494
+msgid "File attachment failed."
+msgstr ""
+
+#: ias-countries.php:2504
+msgid "Please make sure email service is configured correctly."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "ias Countries"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/ias-countries/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage country lists, translate, customize, export, select, dropdown, group by region and parse url query to country code and name in any language."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ias vobuks"
+msgstr ""

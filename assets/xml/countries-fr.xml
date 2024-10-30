@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries xml:id="fr">
+  <AF>Afghanistan</AF>
+  <ZA>Afrique du Sud</ZA>
+  <AX>Åland</AX>
+  <AL>Albanie</AL>
+  <DZ>Algérie</DZ>
+  <DE>Allemagne</DE>
+  <AD>Andorre</AD>
+  <AO>Angola</AO>
+  <AI>Anguilla</AI>
+  <AQ>Antarctique</AQ>
+  <AG>Antigua et Barbuda</AG>
+  <AN>Antilles néerlandaises</AN>
+  <SA>Arabie Saoudite</SA>
+  <AR>Argentine</AR>
+  <AM>Arménie</AM>
+  <AW>Aruba</AW>
+  <AU>Australie</AU>
+  <AT>Autriche</AT>
+  <AZ>Azerbaïdjan</AZ>
+  <BS>Bahamas</BS>
+  <BH>Bahreïn</BH>
+  <BD>Bangladesh</BD>
+  <BB>Barbades</BB>
+  <BE>Belgique</BE>
+  <BZ>Belize</BZ>
+  <BJ>Bénin</BJ>
+  <BM>Bermudes</BM>
+  <BT>Bhoutan</BT>
+  <BY>Biélorussie</BY>
+  <BO>Bolivie</BO>
+  <BQ>Bonaire</BQ>
+  <BA>Bosnie-Herzégovine</BA>
+  <BW>Botswana</BW>
+  <BR>Brésil</BR>
+  <BN>Brunei Darussalam</BN>
+  <BG>Bulgarie</BG>
+  <BF>Burkina Faso</BF>
+  <BI>Burundi</BI>
+  <KH>Cambodge</KH>
+  <CM>Cameroun</CM>
+  <CA>Canada</CA>
+  <CV>Cap-Vert</CV>
+  <TD>Chad</TD>
+  <CL>Chili</CL>
+  <CN>Chine</CN>
+  <CY>Chypre</CY>
+  <CO>Colombie</CO>
+  <KM>Comores</KM>
+  <CG>Congo</CG>
+  <KR>Corée (du Sud)</KR>
+  <KP>Corée (nord)</KP>
+  <CR>Costa Rica</CR>
+  <CI>Côte d'Ivoire</CI>
+  <HR>Croatie (Hrvatska)</HR>
+  <CU>Cuba</CU>
+  <CW>Curaçao</CW>
+  <DK>Danemark</DK>
+  <DJ>Djibouti</DJ>
+  <DM>Dominique</DM>
+  <EG>Égypte</EG>
+  <AE>Émirats arabes unis</AE>
+  <EC>Équateur</EC>
+  <ER>Érythrée</ER>
+  <ES>Espagne</ES>
+  <EE>Estonie</EE>
+  <US>Etats Unis</US>
+  <ET>Éthiopie</ET>
+  <RU>Fédération de Russie</RU>
+  <FO>Féroé (îles)</FO>
+  <FJ>Fidji</FJ>
+  <FI>Finlande</FI>
+  <FR>France</FR>
+  <GA>Gabon</GA>
+  <GM>Gambie</GM>
+  <GE>Géorgie</GE>
+  <GH>Ghana</GH>
+  <GI>Gibraltar</GI>
+  <GR>Grèce</GR>
+  <GD>Grenade</GD>
+  <GL>Groenland</GL>
+  <GP>Guadeloupe</GP>
+  <GU>Guam</GU>
+  <GT>Guatemala</GT>
+  <GG>Guernesey</GG>
+  <GN>Guinée</GN>
+  <GQ>Guinée équatoriale</GQ>
+  <GY>Guyana</GY>
+  <GF>Guyane française</GF>
+  <HT>Haïti</HT>
+  <HN>Honduras</HN>
+  <HK>Hong Kong</HK>
+  <HU>Hongrie</HU>
+  <BV>Ile Bouvet</BV>
+  <IM>Île de Man</IM>
+  <CX>Île de Noel</CX>
+  <NF>Ile de Norfolk</NF>
+  <GS>Iles  Sandwich du Sud et Géorgie du Sud</GS>
+  <KY>Îles Caïmans</KY>
+  <CC>Iles Cocos (Keeling)</CC>
+  <CK>Îles Cook</CK>
+  <FK>Îles Falkland (Malvinas)</FK>
+  <HM>Iles Heard et McDonald</HM>
+  <MP>Îles Mariannes du Nord</MP>
+  <MH>Îles Marshall</MH>
+  <UM>Iles Mineures américaines</UM>
+  <TC>Îles Turques et Caïques</TC>
+  <VG>Îles Vierges (britanniques)</VG>
+  <VI>Îles Vierges (États-Unis).</VI>
+  <WF>Îles Wallis-et-Futuna</WF>
+  <IN>Inde</IN>
+  <ID>Indonésie</ID>
+  <IQ>Irak</IQ>
+  <IR>Iran</IR>
+  <IE>Irlande</IE>
+  <IS>Islande</IS>
+  <IL>Israël</IL>
+  <IT>Italie</IT>
+  <JM>Jamaïque</JM>
+  <JP>Japon</JP>
+  <JE>Jersey</JE>
+  <JO>Jordanie</JO>
+  <KZ>Kazakhstan</KZ>
+  <KE>Kenya</KE>
+  <KG>Kirghizistan</KG>
+  <KI>Kiribati</KI>
+  <KW>Koweït</KW>
+  <GW>La Guinée-Bissau</GW>
+  <LA>Laos</LA>
+  <SB>Les îles Salomon</SB>
+  <LS>Lesotho</LS>
+  <LV>Lettonie</LV>
+  <LB>Liban</LB>
+  <LR>Libéria</LR>
+  <LY>Libye</LY>
+  <LI>Liechtenstein</LI>
+  <LT>Lituanie</LT>
+  <LU>Luxembourg</LU>
+  <MO>Macao</MO>
+  <MK>Macédoine</MK>
+  <MG>Madagascar</MG>
+  <MY>Malaisie</MY>
+  <MW>Malawi</MW>
+  <MV>Maldives</MV>
+  <ML>Mali</ML>
+  <MT>Malte</MT>
+  <MA>Maroc</MA>
+  <MQ>Martinique</MQ>
+  <MU>Maurice</MU>
+  <MR>Mauritanie</MR>
+  <YT>Mayotte</YT>
+  <MX>Mexique</MX>
+  <FM>Micronésie</FM>
+  <MD>Moldavie</MD>
+  <MC>Monaco</MC>
+  <MN>Mongolie</MN>
+  <ME>Monténégro</ME>
+  <MS>Montserrat</MS>
+  <MZ>Mozambique</MZ>
+  <MM>Myanmar</MM>
+  <NA>Namibie</NA>
+  <NR>Nauru</NR>
+  <NP>Népal</NP>
+  <NI>Nicaragua</NI>
+  <NE>Niger</NE>
+  <NG>Nigeria</NG>
+  <NU>Niue</NU>
+  <NO>Norvège</NO>
+  <NC>Nouvelle Calédonie</NC>
+  <NZ>Nouvelle-Zélande (Aotearoa)</NZ>
+  <OM>Oman</OM>
+  <UG>Ouganda</UG>
+  <UZ>Ouzbékistan</UZ>
+  <PK>Pakistan</PK>
+  <PW>Palau</PW>
+  <PA>Panama</PA>
+  <PG>Papouasie-Nouvelle Guinée</PG>
+  <PY>Paraguay</PY>
+  <NL>Pays-Bas</NL>
+  <PE>Pérou</PE>
+  <PH>Philippines</PH>
+  <PN>Pitcairn</PN>
+  <PL>Pologne</PL>
+  <PF>Polynésie française</PF>
+  <PR>Porto Rico</PR>
+  <PT>Portugal</PT>
+  <QA>Qatar</QA>
+  <CF>République centrafricaine</CF>
+  <CD>République démocratique du Congo</CD>
+  <DO>République dominicaine</DO>
+  <CZ>République tchèque</CZ>
+  <RE>Réunion</RE>
+  <RO>Roumanie</RO>
+  <GB>Royaume-Uni (GB)</GB>
+  <RW>Rwanda</RW>
+  <EH>Sahara occidental</EH>
+  <VC>Saint Vincent et les Grenadines</VC>
+  <BL>Saint-Barthélemy</BL>
+  <KN>Saint-Kitts-et-Nevis</KN>
+  <SM>Saint-Marin</SM>
+  <MF>Saint-Martin</MF>
+  <PM>Saint-Pierre et Miquelon</PM>
+  <SH>Sainte-Hélène</SH>
+  <LC>Sainte-Lucie</LC>
+  <SV>Salvador</SV>
+  <WS>Samoa</WS>
+  <AS>Samoa américaines</AS>
+  <ST>Sao Tomé et Principe</ST>
+  <SN>Sénégal</SN>
+  <RS>Serbie</RS>
+  <SC>Seychelles</SC>
+  <SL>Sierra Leone</SL>
+  <SG>Singapour</SG>
+  <SX>Sint Maarten</SX>
+  <SK>Slovaquie</SK>
+  <SI>Slovénie</SI>
+  <SO>Somalie</SO>
+  <SD>Soudan</SD>
+  <SS>Soudan du Sud</SS>
+  <LK>Sri Lanka</LK>
+  <SE>Suède</SE>
+  <CH>Suisse</CH>
+  <SR>Suriname</SR>
+  <SJ>Svalbard et Jan Mayen</SJ>
+  <SZ>Swaziland</SZ>
+  <SY>Syrie</SY>
+  <TJ>Tadjikistan</TJ>
+  <TW>Taiwan</TW>
+  <TZ>Tanzanie</TZ>
+  <TF>Terres australes françaises</TF>
+  <IO>Territoire britannique de l'océan Indien</IO>
+  <PS>Territoire palestinien</PS>
+  <TH>Thaïlande</TH>
+  <TL>Timor-Leste</TL>
+  <TG>Togo</TG>
+  <TK>Tokelau</TK>
+  <TO>Tonga</TO>
+  <TT>Trinité-et-Tobago</TT>
+  <TN>Tunisie</TN>
+  <TM>Turkménistan</TM>
+  <TR>Turquie</TR>
+  <TV>Tuvalu</TV>
+  <UA>Ukraine</UA>
+  <UY>Uruguay</UY>
+  <VU>Vanuatu</VU>
+  <VA>Vatican</VA>
+  <VE>Venezuela</VE>
+  <VN>Vietnam</VN>
+  <YE>Yémen</YE>
+  <ZM>Zambie</ZM>
+  <ZW>Zimbabwe</ZW>
+</countries>

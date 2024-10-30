@@ -1,0 +1,181 @@
+<!-- Methods -->
+<div>
+	<h3>Methods</h3>
+		<ul class="methods">
+			<li>
+				<code class="method">ias_cntrs_get_country_code ( $country, $lang )</code>
+				<p class="description">Get country code for exactly given country name</p>
+				<p><span class="parameter">'lang'</span> - optional.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_search_country_code ( $country_code, $lang )</code>
+				<p class="description">Find all matches of country code by giving country name (or part of it)</p>
+				<p><span class="parameter">'lang'</span> - optional.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_country_slug ( $country_code )</code>
+				<p class="description">Get url compatible name of country ( $slug )</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_country_by_code ( $country_code, $lang )</code>
+				<p class="description">Get country name by its ISO code</p>
+				<p><span class="parameter">'lang'</span> - optional. If language not defined, country returned in default language from built-in translation version.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_country_by_slug ( $slug, $lang )</code>
+				<p class="description">Get country name by its slug (url compatible name)</p>
+				<p>For predefined country slugs look into plugin subfolder /assets/xml/default.xml or database table 'ias_cntrs_table_base'</p>
+				<p><span class="parameter">'lang'</span> - optional.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_countries_by_region ( $region, $lang )</code>
+				<p class="description">Get countries of given region</p>
+				<p><span class="parameter">'lang'</span> - optional. If language not defined, countries returned in default language from built-in translation version.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_selection ( $selection_id, $lang )</code>
+				<p class="description">Get countries of the given selection</p>
+				<p>See bellow for parameter description.</p>
+				<p><span class="parameter">'lang'</span> - optional. If language not defined, countries returned in default language from built-in translation version.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_translations ( $include )</code>
+				<p class="description">Get all available translations for the given set of countries</p>
+				<p>See bellow for parameter description.</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_translated_countries ( $lang )</code>
+				<p class="description">Get only translated terms for the given language</p>
+			</li>
+			<li>
+				<code class="method">ias_cntrs_get_countries ( $args )</code>
+				<p class="description">Get countries according to given arguments </p>
+				<h4>Parameters</h4>
+				<pre><code>$args = array(
+	'lang' => null,
+	'include' => null,
+	'exclude' => null,
+	'selection' => null,
+	'region' => null,
+	'orderby' => 'name',
+	'order' => 'ASC',
+	'fallback' => false,
+	'incl_empty' => true
+);</code></pre>
+				<ul class="parameters">
+					<li><span class="parameter">'lang'</span> - (string/array) (optional) two-letter language codes, e.g., 'en' or array('de', 'fr')
+						<ul>
+						<li>If <span class="parameter">'lang'</span> is defined as array of one language and fallback is true, each country returns a numeric array of country name in default language of built-in translation version (always available) and available custom translation (empty string if nothing).</li>
+						<li>If <span class="parameter">'lang'</span> left undefined, countries are listed in default language of built-in translation version.</li>
+						</ul>
+					</li>
+					<li><span class="parameter">'include', 'exclude'</span> - (string/array) (optional) of country codes to include/exclude</li>
+					<li><span class="parameter">'selection'</span> - (int) (optional) id of custom country selection</li>
+					<li><span class="parameter">'region'</span> - (string/array) (optional) of regions to include. Accepted region parameters:
+						<ul>
+							<li><span class="parameter">'africa'</span> for Africa, 
+							<li><span class="parameter">'antarctica'</span> for Antarctica,</li> 
+							<li><span class="parameter">'asiapacific'</span> for Asia with Pacific Islands including Australia,</li> 
+							<li><span class="parameter">'europe'</span> for Europe,</li> 
+							<li><span class="parameter">'northamerica'</span> for North America,</li> 
+							<li><span class="parameter">'southamerica'</span> for South America.</li>
+							<li>Following countries are part of both Asia and Europe: Armenia, Azerbaijan, Georgia, Kazakhstan, Russia, Turkey</li>
+						</ul>
+					</li>
+					<li><span class="parameter">'orderby'</span> - (string) (optional) values accepted:
+						<ul>
+							<li><span class="parameter">'code'</span> - order by country ISO code,</li> 
+							<li><span class="parameter">'name'</span> - order by country name</li>
+						</ul>
+					</li>
+					<li><span class="parameter">'order'</span> - (string) (optional) values accepted 'ASC', 'DESC'</li>
+					<li><span class="parameter">'fallback'</span> - (boolean true/false) (optional) replace empty translations with built-in translation of default language</li>
+					<li><span class="parameter">'incl_empty'</span> - (boolean true/false) (optional) include countries with no translation for the given language; effective only in case of one language. This parameter is automatically set to true if 'fallback' parameter is true (every empty translation will be replaced by default value).</li>
+				</ul>
+			</li>
+			<li><code class="method">ias_cntrs_get_dropdown ( $header, $args )</code>
+				<p class="description">Return drop-down list</p>
+				<h4>Parameters</h4>
+				<pre><code>$args = array(
+	// input field specific
+	'name' => 'country',
+	'id' => '',
+	'class' => '',
+	'selected' => array(),
+	'multiple' => false,
+	'top' => array(), 
+	// country specific (see above)
+	'lang' => null,
+	'include' => null,
+	'exclude' => null,
+	'selection' => null,
+	'region' => null,
+	'orderby' => 'name',
+	'order' => 'ASC',
+	'fallback' => false
+);</code></pre>
+				
+				<ul class="parameters">
+					<li><span class="parameter">'header'</span> - (string) (optional) label for the blank option at the head of the drop-down list, e.g. __('Select country', 'your-text-domain'). If this parameter is empty string, drop-down list starts immediately with countries.</li>
+					<li><span class="parameter">'multiple'</span> - (boolean true/false) (optional) multiple selection enabled</li>
+					<li><span class="parameter">'top'</span> -  (array) (optional) countries to be shown on top of the list, array of country ISO codes</li>
+					<li><span class="parameter">'lang'</span> - (string) (optional) one language accepted only. If language not defined, countries returned in default language from built-in translation version.</li>
+				</ul>
+			</li>
+			<li><code class="method">ias_cntrs_dropdown ( $header, $args )</code>
+				<p class="description">Echo drop-down list</p>
+			</li>
+		</ul>
+		<h4>Use</h4>
+		<pre><code>if(function_exists('ias_cntrs_get_countries')){
+	$args = array(
+		'lang' => 'de',
+		'include' => array('DE', 'FR', 'AT')
+	);
+	$countries = ias_cntrs_get_countries($args);
+}</code></pre>
+</div><!-- end methods -->
+
+<!-- Filters -->
+<div>
+		<h3>Filters</h3>
+		<code class="method">ias_cntrs_languages_list</code>
+		<p class="description">Filter list of languages offered for custom translation</p>	
+		<h4>Use</h4>
+		<p>Add to functions.php</p>
+		<pre><code>if(class_exists('iasCountries')){
+	add_filter('ias_cntrs_languages_list', 'my_langs');
+	function my_langs($languages){
+		$languages['ho'] = 'Hiri Motu';
+		ksort($languages);
+		return $languages;
+	}
+}</code></pre>
+		<p>Add new languages in accordance with ISO 639-1 codes.</p>
+</div><!-- end filters -->
+
+<!-- Import -->
+<div>
+	<h3>Import</h3>
+		<p>Formats accepted for translation import: xml, csv.</p>
+		<h4>CSV format</h4>
+		<pre>
+...
+AW:Aruba
+AU:Australia
+...</pre>
+		<pre>
+...
+AW;Aruba
+AU;Australia
+...</pre>
+		<h4>XML format</h4>
+		<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+	&lt;countries xml:id=&quot;en&quot;&gt;
+		...
+		&lt;AW&gt;Aruba&lt;/AW&gt;
+		&lt;AU&gt;Australia&lt;/AU&gt;
+		...
+	&lt;/countries&gt;
+</code></pre>	
+</div>

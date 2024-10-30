@@ -1,0 +1,164 @@
+h2 .nav-tab {
+  padding: 6px 10px; /*for older wp versions*/
+}
+textarea, input {
+  font-size: 13px;
+  line-height: 18px;
+}
+/*admin page navigation*/
+.disabled {
+  pointer-events: none;
+}
+.wrap{
+	min-width: 360px;
+}
+.tablenav-pages .current-page {
+  padding-top: 3px; /*restore general value*/
+}
+#col-left{
+	width: 65%;
+	clear: left;
+	float: left;
+}
+#col-right{
+	width: 35%;
+	float: right;
+}
+#col-left table{
+	min-width:360px;
+}
+
+div.updated, div.error {
+	margin: 5px 2px 2px;
+}
+#col-right .col-wrap{
+	padding: 30px 7px 0;
+}
+#remove-on-page .submit{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#selections #col-right,
+#selections #col-left{
+	width: auto;
+	float: left;
+}
+#selections ul{
+	float: left;
+	padding-right: 12px;
+	margin:0;
+}
+#selections .list-wrap{
+	margin-top: 12px;
+}
+#selections .col-wrap p.submit {
+	margin-top: 0;
+}
+#selections .tablenav .tablenav-pages{
+	float: left;
+	margin-left: 12px;
+}
+#selections #col-right .col-wrap{
+	padding: 0 7px;
+}
+#manual h3{
+	margin: 2.4em 0 0.6em;
+}
+#manual h4{
+	font-style: italic;
+	margin: 0.6em 0;
+}
+#manual p{
+	margin: 0;
+}
+#manual pre, 
+#manual code {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	tab-size: 4;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	font-family: Consolas,Monaco,"Courier New",Courier,monospace;
+	font-size: 12px;
+	font-weight: inherit;
+	overflow-x: auto;
+}
+#manual pre {
+  background: #FEFEFE;
+  border: 1px solid #dedee3;
+  font-size: 12px;
+  line-height: 1.3em;
+  margin: 0 0 1em;
+  overflow: auto;
+  padding: 11px;
+ }
+#manual code{
+	background: none;
+	padding: 0;
+}
+#manual ul.methods li{
+	margin-bottom: 2em;
+}
+#manual code.method{
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#manual ul.parameters{
+	margin: 0 2em;
+	font-size: 0.96em;
+	list-style: square outside none;
+}
+#manual ul.parameters li{
+	margin: 0 0 0.6em;
+}
+#manual ul.parameters ul  li{
+	margin: 0 0 0 2em;
+	list-style: circle outside none;
+}
+#manual .parameter{
+	font-style: italic;
+}
+#manual #col-right {
+	float: left;
+	width: 240px;
+}
+#manual #ias-cntrs-paypal{
+	text-align: center;
+	margin-bottom: 1em;
+}
+#manual #ias-cntrs-feedback,
+#manual #ias-cntrs-paypal{
+  background: #FEFEFE;
+  border: 1px solid #dedee3;
+  padding: 11px;
+}
+#manual #ias-cntrs-feedback h3{
+	margin: 0 0 0.6em;
+}
+#manual #ias-cntrs-feedback p{
+	margin-top: 1em;
+	padding: 0;
+}
+#manual #ias-cntrs-feedback label {
+	display: block;
+}
+#manual #ias-cntrs-feedback input, 
+#manual #ias-cntrs-feedback textarea{
+	width: 100%;
+}
+@media only screen and (max-width : 600px ) {
+	#col-left{
+		width: 100%;
+		clear: left;
+	}
+	#col-right{
+		width: 100%;
+	}
+	#col-right .col-wrap{
+		padding-top: 0;
+	}
+}
